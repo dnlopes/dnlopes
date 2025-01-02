@@ -18,9 +18,9 @@ jobs:
           template: classic
           config_timezone: UTC
           base: header
-          filename: header-iso-calendar.svg
+          filename: metrics.plugin.iso.calendar.svg
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
 
   habits:
     runs-on: ubuntu-latest
@@ -34,7 +34,7 @@ jobs:
           template: classic
           config_timezone: UTC
           base: ""
-          filename: habits.svg
+          filename: habits.plugin.habits.svg
           plugin_habits: yes
           plugin_habits_charts: yes
           plugin_habits_charts_type: classic
