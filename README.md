@@ -1,15 +1,12 @@
-<a href="#">
-  <img align="center" width="80%" src="./metrics.plugin.introduction.svg" />
-</a>
+<div align="center">
+  <img align="center" width="70%" src="./metrics.plugin.introduction.svg" />
+</div>
 
-<a href="#">
-  <img align="center" width="49%" src="./metrics.plugin.iso.calendar.svg" />
-</a>
+<div align="center">
+  <img align="center" width="45%" src="./metrics.plugin.iso.calendar.svg" />
+  <img align="center" width="45%" src="./habits.plugin.habits.svg" />
+</div>
 
-<a href="#">
-  <img align="center" width="49%" src="./habits.plugin.habits.svg" />
-</a>
-
-<a href="#">
-  <img align="center" width="80%" src="./metrics.plugin.followup.user.svg" />
-</a>
+<div align="center">
+  <img align="center" width="70%" src="./metrics.plugin.followup.user.svg" />
+</div>
