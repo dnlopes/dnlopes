@@ -6,6 +6,19 @@ on:
   push: { branches: ["main"] }
 
 jobs:
+  intro:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.introduction.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: github
+          base: header
+          plugin_introduction: yes
+
   header-iso-calendar:
     runs-on: ubuntu-latest
     permissions:
@@ -17,7 +30,7 @@ jobs:
           user: dnlopes
           template: classic
           config_timezone: UTC
-          base: header
+          base: ""
           filename: metrics.plugin.iso.calendar.svg
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
